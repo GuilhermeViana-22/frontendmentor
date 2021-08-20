@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: #c5e4e7 ;
+    font-family: 'Space Mono', monospace;
+}
+.tittle{
+text-align: center;
+margin-top: 80px;
+}
+
+.container{
+    display: flex; /*torna o container flexivel*/
+    flex-wrap: wrap; /*cria wraps com o espaço disponivel*/
+    justify-content: space-between; /*cria um espaço entre os componentes*/
+    align-items: flex-start; /*itens posicionados ao exio transvessal*/
+    align-content: center; /*alinha no centro do contianer*/
+    background-color: #fff;
+    width: 720px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+   
+}
+
+.column{    
+    color: #339594;
+    width: 400px;
+    height: auto;   
+}
+wrap{
+   display: block;
+   border: 10px solid #000;
+}
+input{
+    background-color: #d2fafac9;
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    border: none;
+    transition: 0.3s;
+    text-align: right;
+}
+
+input::placeholder {
+    color: #1e5a59;
+  }
+
+button{
+    background-color: #1e5a59;
+    color: #fff;
+    width: 100px;
+    padding: 5px;
+    margin: 4px;
+    border: none;
+    border: none;
+   
+}
+button:hover{
+    background-color: #339594;
+}
+#Custom{
+    background-color: #e9ecec;
+    color: #339594;
+    width: 90px;
+    padding: 5px;
+    margin: 4px;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+#Custom:hover{
+    background-color: #113131;
+    
+}
+.container2{
+flex-wrap: wrap-reverse;
+    background-color: #01282a;
+    border-radius: 20px;
+    color: #39b4b2;
+    width: 270px;
+    height: auto;
+    padding: 20px;
+   
+}
+#Reset{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    border: none;
+    color: #193838;
+
+    }
+    #Reset:hover{
+        color: #ffffff;
+        transition: 0.4s;
+    }
+#img{
+    background-color: #c5e4e7 ;
+}
+#person{
+    color: #83a1a1;
+}
+#Total{
+
+    color: #fff;
+}
+#value{float: right; font-size: 20pt;}
+#value2{float: right; font-size: 20pt;}
+
+#message{
+    color: rgb(251, 14, 14);
+    font-size: 10pt;
+}
+
+.attribution{
+
+text-align: center;
+bottom: 1; /*joga pro final da pagina o footer*/ 
+position: fixed;
+width: 100%;
+}

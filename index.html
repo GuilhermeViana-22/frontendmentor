@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+-->
+</head>
+<body>
+  <div class="tittle"> <label>S P L I</label><br>
+    <label> T T E R</label>
+  </div>
+  <div class="container">
+    <div class="column">
+      <div class="wrap">
+        <p>Bill</p>
+        <input  id ="valueBill" type="text" placeholder="">
+        <p>Select Tip %</p>
+        <button onclick="myFunction(value)" id="btn"  value="0.05">5%</button>
+        <button onclick="myFunction()" id="btn2" value="0.10">10%</button>
+        <button  onclick="myFunction()" id="btn3" value="0.15">15%</button>
+        <button  onclick="myFunction()" id="btn4" value="0.25">25%</button>
+        <button  onclick="myFunction()" id="btn5" value="0.50">50%</button>
+      <!--<input  onblur="myFunction()" id="Custom" type="text" placeholder="Custom">-->
+        <br>
+        <br>
+        <label>Number of People</label>
+        <div class="output">
+          <label id="message"></label>
+          <input type="text" id="lname" name=".money"><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div><small id="person">
+          <p id="Total">Tip Amount</p>
+          / person
+        </small>
+        <p id="value2"><b>$<strong id="demo">0.00</strong></b></p>
+      </div>
+      <br>
+
+      <div><small id="person">
+          <p id="Total">Total</p>
+          / person
+        </small>
+        <p id="value2"><b>$<strong id="resultado"> 0.00</strong></b></p>
+      </div>
+      <br>
+      <br>
+      <button onclick="clear();" type="submit" id="Reset">RESET</button>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
